@@ -12,6 +12,7 @@ const Typography = () => import('@/views/theme/Typography')
 
 const Charts = () => import('@/views/Charts')
 const Widgets = () => import('@/views/Widgets')
+const Analyzer = () => import('@/views/Analyzer')
 
 // Views - Components
 const Cards = () => import('@/views/base/Cards')
@@ -75,6 +76,11 @@ export default new Router({
           path: 'dashboard',
           name: 'Dashboard',
           component: Dashboard
+        },
+        {
+          path: 'analyzer',
+          name: 'Analyzer',
+          component: Analyzer
         },
         {
           path: 'theme',

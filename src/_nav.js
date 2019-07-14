@@ -10,6 +10,15 @@ export default {
       }
     },
     {
+      name: 'Analyzer',
+      url: '/analyzer',
+      icon: 'icon-speedometer',
+      badge: {
+        variant: 'primary',
+        text: ''
+      }
+    },
+    {
       title: true,
       name: 'Theme',
       class: '',

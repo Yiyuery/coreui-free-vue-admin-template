@@ -1,10 +1,10 @@
 {
-  "name": "@coreui/coreui-free-vue-admin-template",
-  "version": "2.1.2",
-  "description": "Open Source Bootstrap Admin Template",
-  "author": "Łukasz Holeczek",
+  "name": "capsule-agile-web",
+  "version": "1.0.0",
+  "description": "敏捷开发前端模块",
+  "author": "Yiyuery X",
   "homepage": "http://coreui.io",
-  "copyright": "Copyright 2018 creativeLabs Łukasz Holeczek",
+  "copyright": "Copyright 2019 creativeLabs Yiyuery X",
   "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -29,7 +29,9 @@
     "simple-line-icons": "^2.4.1",
     "vue": "^2.5.22",
     "vue-chartjs": "^3.4.0",
+    "vue-layer": "^0.9.13",
     "vue-perfect-scrollbar": "^0.1.0",
+    "vue-resource": "^1.5.1",
     "vue-router": "^3.0.2"
   },
   "devDependencies": {
